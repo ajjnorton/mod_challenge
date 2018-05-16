@@ -1,0 +1,107 @@
+@import "src/styles.scss";
+$letterSpacing:0.5px;
+table {
+  td {
+    color: $pebble;
+    font-weight: 100;
+  }
+  th {
+    background: rgba( $wash, .4);
+    border-bottom: 2px solid $wave;
+    border-top: none;
+    color: $pebble;
+    font-weight: 500;
+  }
+  .strong {
+    font-weight: 500 !important;
+  }
+  .right-align {
+    text-align: right;
+  }
+  width:100%;
+  margin-top:20px;
+}
+
+
+.container {
+  padding: 0px;
+  font-size: 10px;
+  @media screen and (min-width: $break-tablet) {
+    font-size:14px;
+  }
+}
+
+.modlogo {
+  height: 40px;
+  margin: 10px 0px 10px 0px;
+  @media screen and (min-width: $break-tablet) {
+    height:55px;
+    margin-top: 15px;
+  }
+}
+
+.logoblocks {
+  display: none;
+  @media screen and (min-width: $break-tablet) {
+    display: inline;
+    height: 100px;
+  }
+}
+
+
+
+label {
+  color: $pebble;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $spray;
+  opacity: 1;
+  /* Firefox */
+}
+
+nav {
+  background: $pebble;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  color: $wash;
+}
+
+.active {
+  border-bottom: 4px solid $wash;
+  padding: 0px 0px 9px 0px;
+}
+
+.btn-create {
+    text-align: left;
+    width: 40px;
+ 
+    @media screen and (min-width: $break-tablet) {
+      text-align: right;
+
+    }
+}
+
+.loader-container{
+    margin-top:200px;
+    width:100%;
+    text-align: center;
+}
+.loader {
+    margin-left: auto;
+    margin-right:auto;
+    width: 80px;
+    height: 80px;
+    animation: spin .9s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

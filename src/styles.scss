@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+$pebble:#5C686D;
+$spray:#63F2CB;
+$wash:#9FF7DF;
+$wave:#3EA7DD;
+$break-tablet: 768px;
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+* {
+  border-radius: 1 !important;
+}
+
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: $wave;
+  border-color: $wave;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
