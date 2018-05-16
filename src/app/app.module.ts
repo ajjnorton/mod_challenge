@@ -5,8 +5,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CustomerDataService } from './core/customer-data.service';
-import { AngularMaterialModule } from './shared/angular-material.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
+//import { AngularMaterialModule } from './shared/angular-material.module';
+//
 import {SearchComponent} from './shared/search/search.component';
 
 
@@ -19,7 +19,7 @@ import {SearchComponent} from './shared/search/search.component';
   imports: [
     BrowserModule,
     HttpModule,
-    FlexLayoutModule,
+   // FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule
 
